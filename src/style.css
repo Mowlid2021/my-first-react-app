@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(182, 239, 255);
+}
+.navContainer{
+    max-width: 1100px;
+    margin: auto;
+}
+.navContainer button{
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.active{
+    color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    color: yellow;
+}
+
+/*ended navigation style */
+.btnPrimary{
+    background-color: red !important;
+}
+.btnSecondary{
+    background: blue !important;
+}
+
+.productGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+    background-color: rgb(177, 212, 22);
+    border-radius: 20px;
+    height: 500px;
+    color: rgb(38, 23, 78);
+    text-transform: capitalize;
+}
+.singleProduct{
+   width: 100%;
+   position: relative;
+   border-radius: 20px;
+}
+.singleProduct .priceInfo{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+    bottom: 0;
+    background-color: rgba(49, 81, 5, 0.382);
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+}
+.singleProduct button{
+    position: absolute;
+    top: 0; right: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.cartContainer{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0px 0px 300px 1px; 
+    background: lightblue;
+    border-radius: 40px;
+    text-align: center;
+}
+.cartImage{
+    display: flex;
+    width: 50%;
+    background-color: rgba(185, 255, 55, 0.112);
+    box-shadow: 0px 0px 10px 1px;
+    position: relative;
+}
+.cartPrice{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: lightblue;
+    display: flex;
+    justify-content: space-around;
+    width: 190px;
+}
+.cartflex{
+    background-color: rgba(121, 110, 126, 0.395);
+    display: flex;
+    margin-left: 22px;
+}
