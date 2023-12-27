@@ -14,7 +14,7 @@ function Navigation() {
     <div className='navContainer'> 
 
         <div className='navigation'>
-          <NavLink to="/"><span className='logo'>Reactify...</span></NavLink>
+          <NavLink to="/"><span className='logo'>Mowlid's Logo</span></NavLink>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/Contact">Contact</NavLink>
           <NavLink to="/About">About</NavLink>
